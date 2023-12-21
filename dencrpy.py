@@ -1,3 +1,11 @@
+"""
+Simple File Encryption and Decryption App
+
+This script allows users to encrypt and decrypt the contents of a file using the Fernet symmetric key encryption algorithm
+with PBKDF2-HMAC-SHA256 key derivation. Users can generate a new encryption key, paste an existing key, set the file name,
+and perform encryption or decryption operations. The app provides clear options and messages for user interaction.
+"""
+
 import base64
 import os
 import secrets
